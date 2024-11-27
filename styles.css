@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ancient Modern Tales;
+    letter-spacing: 2px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2acedf48-fab8-4f1c-9694-40ffcc10ee33/dhde95w-4560675e-4c88-4415-8ce2-a98477b353c6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhY2VkZjQ4LWZhYjgtNGYxYy05Njk0LTQwZmZjYzEwZWUzM1wvZGhkZTk1dy00NTYwNjc1ZS00Yzg4LTQ0MTUtOGNlMi1hOTg0NzdiMzUzYzYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fJdu4hX7kv8ohEYiVtyu3gyhyz15Bir1jzrGrKeIq8k');
+    background-size: contain;
+}
+
+.intro{
+    width: 60%;
+    height: 10%;
+    color: #fff;
+    
+}
+
+main{
+    height: 75%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .options{
+        width: 100%;
+        height: 100%;
+        background-color: #333a44;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+
+
+        .raca{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-flow: column;
+
+            .raceBtns{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                align-items: center;
+                justify-items: center;
+                
+
+                button{
+                    border: none;
+                    width: 60%;
+                    height: 60%;
+                    background-color: crimson;
+                    cursor: pointer;
+                    color:#fff;
+                }
+            }
+        }
+
+        .classes{
+            width: 100%;
+            height: 20%;
+            .classBtns{
+                width: 100%;
+                height: 100%;
+                gap: 1rem;
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: center;
+
+                button{
+                    border: none;
+                    width: 60%;
+                    height: 60%;
+                    background-color: crimson;
+                    cursor: pointer;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .display{
+        width: 100%;
+        height: 100%;
+        padding: 3rem;
+        background-image: url('https://img.craftpix.net/2023/04/Free-Nature-Backgrounds-Pixel-Art2.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-flow: column;
+
+        h2{
+            font-size: 2rem;
+        }
+    }
+}
+
